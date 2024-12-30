@@ -1,0 +1,21 @@
+{
+    "name": "Frontend Clone of Sundown Studios",
+"image": "mcr.microsoft.com/devcontainers/javascript-node:18",
+"forwardPorts": [
+  80
+],
+"customizations": {
+  "vscode": {
+    "settings": {
+      "html.format.enable": true,
+      "css.validate": true,
+      "javascript.validate.enable": true
+    },
+    "extensions": [
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode"
+    ]
+  }
+},
+"postCreateCommand": "npm install"
+}
